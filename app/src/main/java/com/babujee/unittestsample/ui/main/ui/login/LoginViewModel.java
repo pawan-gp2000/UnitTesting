@@ -6,10 +6,11 @@ import androidx.lifecycle.ViewModel;
 
 import android.util.Patterns;
 
+import com.babujee.unittestsample.R;
 import com.babujee.unittestsample.ui.main.data.LoginRepository;
 import com.babujee.unittestsample.ui.main.data.Result;
 import com.babujee.unittestsample.ui.main.data.model.LoggedInUser;
-import com.babujee.unittestsample.ui.main.R;
+import com.babujee.unittestsample.ui.main.data.model.TestUser;
 
 public class LoginViewModel extends ViewModel {
 
@@ -39,6 +40,11 @@ public class LoginViewModel extends ViewModel {
         } else {
             loginResult.setValue(new LoginResult(R.string.login_failed));
         }
+
+        TestUser u = new TestUser();
+        u = new TestUser();
+        u.setAddress("abs");
+        u.setName("pk");
     }
 
     public void loginDataChanged(String username, String password) {
