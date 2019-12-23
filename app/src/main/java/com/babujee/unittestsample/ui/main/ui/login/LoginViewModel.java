@@ -45,6 +45,9 @@ public class LoginViewModel extends ViewModel {
         u = new TestUser();
         u.setAddress("abs");
         u.setName("pk");
+        for(int i = 0; i < 10; i = 0) {
+            u = new TestUser();
+        }
     }
 
     public void loginDataChanged(String username, String password) {
