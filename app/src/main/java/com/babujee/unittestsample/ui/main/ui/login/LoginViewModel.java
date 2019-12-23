@@ -48,6 +48,8 @@ public class LoginViewModel extends ViewModel {
         for(int i = 0; i < 10; i = 0) {
             u = new TestUser();
         }
+        // This code is not good.
+
     }
 
     public void loginDataChanged(String username, String password) {
