@@ -22,9 +22,7 @@ import android.widget.ProgressBar;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.babujee.unittestsample.ui.main.R;
-import com.babujee.unittestsample.ui.main.ui.login.LoginViewModel;
-import com.babujee.unittestsample.ui.main.ui.login.LoginViewModelFactory;
+import com.babujee.unittestsample.R;
 
 public class LoginActivity extends AppCompatActivity {
 
