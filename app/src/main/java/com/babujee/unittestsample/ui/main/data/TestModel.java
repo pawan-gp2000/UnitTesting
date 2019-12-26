@@ -2,7 +2,7 @@ package com.babujee.unittestsample.ui.main.data;
 
 public class TestModel {
 
-    String abc                 ;
+    String abc;
 
     public TestModel() {
 
@@ -21,4 +21,14 @@ public class TestModel {
     public void doIt1() {
 
     }
+
+
+    public void func() {
+    }    // empty method
+
+    public interface Foo {
+    } // empty interface
+
+    public enum Foo1 {} // empty enum
+
 }
