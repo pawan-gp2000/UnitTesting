@@ -7,5 +7,5 @@ public class TestModel {
 
 
 
-    String name_abc_bbbbbb
+    String name_abc_bbbbbb;
 }
